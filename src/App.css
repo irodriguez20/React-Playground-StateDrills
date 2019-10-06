@@ -1,5 +1,6 @@
 .App {
     display: flex;
+    flex-direction: column;
     margin: 40px;
     min-height: calc(100vh - 80px);
 }
@@ -12,4 +13,10 @@
 .right {
     background-color: wheat;
     color: firebrick;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
